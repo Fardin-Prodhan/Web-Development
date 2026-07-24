@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image:url("/CSS/Images/image.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+/* Login Box */
+
+div{
+    width:400px;
+    padding:40px;
+    border-radius:10px;
+    backdrop-filter: blur(5px);
+    background: rgba(0,0,0,0.2);
+    box-shadow:0 8px 25px rgba(0,0,0,4);
+}
+
+/* Title */
+
+h1{
+    text-align:center;
+    color: black;
+    margin-bottom:25px;
+}
+
+/* Inputs */
+
+input[type="text"],
+input[type="password"],
+input[type="confirmpassword"],
+input[type="email"]{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border:none;
+    border-radius:5px;
+    outline:none;
+    background-color: rgba(0,0,0,0.1);
+}
+
+
+/* Button */
+
+button{
+    width:50%;
+    padding:12px;
+    margin-top:15px;
+    margin-left: 80px;
+    border:none;
+    border-radius:5px;
+    background:rgba(247, 5, 41, 0.9);
+    color:black;
+    font-size:18px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:rgb(107, 105, 105);
+}
+input:hover{
+    background: rgba(247, 5, 41, 0.9);
+}
